@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: linear-gradient(rgb(116, 206, 245), yellow);
+        background-size: cover;
+      }
+
+      .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 40rem;
+        
+      }
+
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 20rem;
+        width: 35rem;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px rgb(8, 126, 166);
+        background-color: magenta;
+        gap: 20px;
+      }
+
+      .contact input {
+        height: 3rem;
+        width: 20rem;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: none;
+      }
+
+      .contact button {
+        height: 2rem;
+        width: 7rem;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .contact button:hover {
+        background-color: rgb(89, 226, 43);
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+          <h1>Log In</h1>
+          <input type="text" placeholder="Username/phone/name" />
+          <input type="password" placeholder="Password" />
+          <button>Submit</button>
+        </div>
+      </div>
+</body>
+</html>
